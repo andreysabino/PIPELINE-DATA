@@ -4,7 +4,7 @@
 
 **Orientador:** Alysson Filgueira Milanez
 
-**Finalidade:** Este projeto de pesquisa e analise tem como objetivo contribuir com o ensino de programação, através da análise de dados de frequência e desempenho dos alunos, pretende-se analisar os impactos que as ações de extensão tem no ensino e eficiência dos discentes.
+**Finalidade:** Este projeto de pesquisa e análise tem como objetivo contribuir com o ensino de programação, através da análise de dados de frequência e desempenho dos alunos. Pretende-se analisar os impactos que as ações de extensão têm no ensino e eficiência dos discentes.
 
 ## Organização do Diretório
 
@@ -57,6 +57,28 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`4_PEAR.py`](#script-para-calcular-o-coeficiente-de-pearson): Script para calcular o coeficiente de correlação de Pearson.
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
+
+## Bibliotecas Utilizadas
+
+### Pandas
+
+[Pandas](https://pandas.pydata.org/) é uma biblioteca poderosa e flexível para manipulação e análise de dados. Ela fornece estruturas de dados de alto desempenho e fáceis de usar, como DataFrames, que são essenciais para a análise de dados.
+
+### Matplotlib
+
+[Matplotlib](https://matplotlib.org/) é uma biblioteca de plotagem em 2D que permite criar gráficos e visualizações de dados de forma simples e intuitiva. É amplamente utilizada para gerar gráficos de dispersão, histogramas, gráficos de linha, entre outros.
+
+### Scipy
+
+[Scipy](https://www.scipy.org/) é uma biblioteca que fornece rotinas e algoritmos científicos e técnicos. No contexto deste projeto, utilizamos o módulo `scipy.stats` para calcular o coeficiente de correlação de Spearman.
+
+### Seaborn
+
+[Seaborn](https://seaborn.pydata.org/) é uma biblioteca de visualização de dados baseada no Matplotlib. Ela fornece uma interface de alto nível para desenhar gráficos estatísticos atraentes e informativos.
+
+### Tabula
+
+[Tabula](https://tabula.technology/) é uma ferramenta para extrair tabelas de arquivos PDF. Utilizamos a biblioteca `tabula-py` para converter os dados dos arquivos PDF para formatos manipuláveis como `.xlsx` e `.csv`.
 
 ## 1. Introdução
 
@@ -244,6 +266,16 @@ plt.show()
 O processo de conversão, limpeza e normalização de dados foi uma etapa crucial para garantir a integridade dos dados utilizados no estudo. Embora tenha havido problemas durante a conversão dos arquivos PDF, todos os erros foram identificados e corrigidos a tempo, garantindo a consistência dos dados.
 
 A partir dos arquivos normalizados, foi possível proceder com a análise de dados, focando nos elementos mais relevantes para os objetivos do TCC.
+
+## 6. Resultados e Conclusões
+
+### Resultados
+
+Os resultados da análise mostraram que há uma correlação significativa entre a frequência dos alunos nas atividades de extensão e seu desempenho na disciplina de Algoritmos. A correlação de Pearson e a correlação de Spearman foram calculadas para verificar a força e a direção dessa relação.
+
+### Conclusões
+
+A análise dos dados sugere que os alunos que participam mais ativamente das atividades de extensão tendem a ter um melhor desempenho na disciplina de Algoritmos. Isso indica que as ações de extensão podem ter um impacto positivo no aprendizado e na eficiência dos discentes.
 
 ---
 
