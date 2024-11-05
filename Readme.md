@@ -211,9 +211,6 @@ import pandas as pd
 # Carregar os dados convertidos
 df = pd.read_csv('dados_convertidos.csv')
 
-# Realizar a segunda fase de conversão
-# (Adicionar aqui a lógica específica da segunda fase de conversão)
-
 # Salvar os dados convertidos
 df.to_csv('dados_convertidos_secundaria.csv', index=False)
 ```
