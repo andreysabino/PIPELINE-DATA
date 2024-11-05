@@ -275,11 +275,9 @@ A partir dos arquivos normalizados, foi possível proceder com a análise de dad
 
 ### Resultados
 
-Os resultados da análise mostraram que há uma correlação significativa entre a frequência dos alunos nas atividades de extensão e seu desempenho na disciplina de Algoritmos. A correlação de Pearson e a correlação de Spearman foram calculadas para verificar a força e a direção dessa relação.
 
 ### Conclusões
 
-A análise dos dados sugere que os alunos que participam mais ativamente das atividades de extensão tendem a ter um melhor desempenho na disciplina de Algoritmos. Isso indica que as ações de extensão podem ter um impacto positivo no aprendizado e na eficiência dos discentes.
 
 ---
 
