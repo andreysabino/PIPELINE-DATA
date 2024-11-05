@@ -181,16 +181,19 @@ Após a limpeza inicial, foi realizado um processo de normalização para garant
 ```python
 import pandas as pd
 
-# Carregar os dados convertidos
-df = pd.read_csv('dados_convertidos.csv')
+# Carregar os dados do CSV
+df = pd.read_csv('201802-VF.csv')
 
-# Normalizar os dados
-df['MEDIA'] = df['MEDIA'].astype(float)
-df['PE'] = df['PE'].astype(float)
-df['ID'] = df['ID'].astype(int)
+# Substituir vírgulas por pontos na coluna 'MEDIA' e remover caracteres indesejados
+df['MEDIA'] = df['MEDIA'].str.replace(',', '.').str.replace(r'[^0-9.]', '', regex=True).astype(float)
 
-# Salvar os dados normalizados
-df.to_csv('dados_normalizados.csv', index=False)
+# Remover aspas na coluna 'PE', substituir vírgulas por pontos e remover caracteres indesejados
+df['PE'] = df['PE'].str.replace('"', '').str.replace(',', '.').str.replace(r'[^0-9.]', '', regex=True).astype(float)
+
+# Salvar o DataFrame atualizado em um novo arquivo CSV
+df.to_csv('201802-V1', index=False)
+
+print("Conversão concluída. Arquivo salvo como '201801_converted.csv'")
 ```
 
 #### Script de Conversão Secundária
@@ -198,11 +201,18 @@ df.to_csv('dados_normalizados.csv', index=False)
 ```python
 import pandas as pd
 
-# Carregar os dados convertidos
-df = pd.read_csv('dados_convertidos.csv')
+# Carregar os dados do CSV
+df = pd.read_csv('"201802-VF.csv"')
 
-# Salvar os dados convertidos
-df.to_csv('dados_convertidos_secundaria.csv', index=False)
+# Converter as colunas 'MEDIA' e 'PE' para float
+df['MEDIA'] = df['MEDIA'].astype(float)
+df['PE'] = df['PE'].astype(float)
+
+# Salvar o DataFrame atualizado em um novo arquivo CSV
+df.to_csv('201802-VF', index=False)
+
+print("Conversão concluída. Arquivo salvo como 'TCC201801_converted_final.csv'")
+
 ```
 
 #### Script de Verificação de Tipos
@@ -210,42 +220,49 @@ df.to_csv('dados_convertidos_secundaria.csv', index=False)
 ```python
 import pandas as pd
 
-# Carregar os dados normalizados
-df = pd.read_csv('dados_normalizados.csv')
+# Carregar os dados do CSV
+df = pd.read_csv('201802-VF.csv')
 
-# Verificar os tipos de dados
-print(df.dtypes)
+# Iterar sobre os valores da coluna 'PE' e imprimir o tipo de cada valor
+for value in df['PE']:
+    print(f"Valor: {value}, Tipo: {type(value)}")
+
+for value in df['MEDIA']:
+    print(f"Valor: {value}, Tipo: {type(value)}")
+
+for value in df['ID']:
+    print(f"Valor: {value}, Tipo: {type(value)}")
 ```
 
 #### Script para Calcular o Coeficiente de Pearson
 
 ```python
-import pandas as pd
+import pandas as pd  # Importa a biblioteca pandas para manipulação de dados
+import matplotlib.pyplot as plt  # Importa a biblioteca matplotlib para plotar gráficos
 
-# Carregar os dados normalizados
-df = pd.read_csv('dados_normalizados.csv')
+# Carregar os dados do CSV
+df = pd.read_csv("201802-VF.csv")  # Lê o arquivo CSV e armazena os dados em um DataFrame
 
-# Calcular o coeficiente de correlação de Pearson
-correlation = df['MEDIA'].corr(df['PE'])
-print(f'Coeficiente de Correlação de Pearson: {correlation}')
+# Calcular a correlação de Pearson entre as colunas 'MEDIA' e 'PE'
+correlation = df['MEDIA'].corr(df['PE'])  # Calcula o coeficiente de correlação de Pearson
+print("Correlação de Pearson:", correlation)  # Imprime o coeficiente de correlação de Pearson
 ```
 
 #### Script para Geração de Gráficos de Dispersão
 
 ```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import pandas as pd  # Importa a biblioteca pandas para manipulação de dados
+import matplotlib.pyplot as plt  # Importa a biblioteca matplotlib para plotar gráficos
 
-# Carregar os dados normalizados
-df = pd.read_csv('dados_normalizados.csv')
+# Carregar os dados do CSV
+df = pd.read_csv("201802-VF.csv")  # Lê o arquivo CSV e armazena os dados em um DataFrame
 
-# Gerar gráfico de dispersão
-sns.scatterplot(x='MEDIA', y='PE', data=df)
-plt.title('Gráfico de Dispersão: MEDIA vs PE')
-plt.xlabel('MEDIA')
-plt.ylabel('PE')
-plt.show()
+# Criar um gráfico de dispersão
+plt.scatter(df['PE'], df['MEDIA'])  # Cria um gráfico de dispersão com 'PE' no eixo X e 'MEDIA' no eixo Y
+plt.xlabel('Porcentagem de Frequência')  # Adiciona o rótulo do eixo X
+plt.ylabel('Média em Algoritmos')  # Adiciona o rótulo do eixo Y
+plt.title('CORRELATION - MEDIA AND PE (2018.02)')  # Adiciona o título do gráfico
+plt.show()  # Exibe o gráfico
 ```
 
 ## 5. Considerações Sobre a Fase de Limpeza e Normalização
