@@ -154,16 +154,6 @@ import pandas as pd
 # Carregar os dados convertidos
 df = pd.read_csv('dados_convertidos.csv')
 
-# Remover colunas irrelevantes
-df = df.drop(columns=['ColunaIrrelevante1', 'ColunaIrrelevante2'])
-
-# Tratar dados ausentes
-df = df.fillna(df.mean())
-
-# Padronizar formatos
-df['Data'] = pd.to_datetime(df['Data'], format='%Y-%m-%d')
-df['Valor'] = df['Valor'].astype(float)
-
 # Salvar os dados limpos
 df.to_csv('dados_limpos.csv', index=False)
 ```
