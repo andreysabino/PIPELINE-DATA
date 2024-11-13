@@ -19,6 +19,7 @@ DATAFRAMES/
 │   ├── 4_PEAR.py
 │   ├── 5_DISP.py
 │   ├── 2001801-VF.csv
+│   ├── Readme.md
 ├── 201802/
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
@@ -26,6 +27,7 @@ DATAFRAMES/
 │   ├── 4_PEAR.py
 │   ├── 5_DISP.py
 │   ├── 201802-VF.csv
+│   ├── Readme.md
 ├── 201901/
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
@@ -33,6 +35,7 @@ DATAFRAMES/
 │   ├── 4_PEAR.py
 │   ├── 5_DISP.py
 │   ├── 201901-VF.csv
+│   ├── Readme.md
 ├── 201902/
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
@@ -40,6 +43,7 @@ DATAFRAMES/
 │   ├── 4_PEAR.py
 │   ├── 5_DISP.py
 │   ├── 201902-VF.csv
+│   ├── Readme.md
 ├── 202001/
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
@@ -47,6 +51,7 @@ DATAFRAMES/
 │   ├── 4_PEAR.py
 │   ├── 5_DISP.py
 │   ├── 202001-VF.csv
+│   ├── Readme.md
 ```
 
 Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém os arquivos CSV resultantes de cada etapa do processo (conversão, limpeza e normalização), bem como os scripts utilizados para cada etapa.
@@ -57,6 +62,7 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`4_PEAR.py`](#script-para-calcular-o-coeficiente-de-pearson): Script para calcular o coeficiente de correlação de Pearson.
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
+- [`Readme.md`](#dados-convertidos): Arquivo .MD com os insights dos datos de seu devido diretório.
 
 
 ## Padrão de Commits
