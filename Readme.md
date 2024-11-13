@@ -58,6 +58,19 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
 
+
+## Padrão de Commits
+
+Para manter um histórico de commits claro e consistente, segui o seguinte padrão de commits:
+
+- **feat**: Adiciona uma nova funcionalidade.
+- **fix**: Corrige um bug.
+- **docs**: Altera a documentação.
+- **style**: Alterações de estilo (espaçamento, formatação, etc.).
+- **refactor**: Melhora o código sem alterar a funcionalidade.
+- **test**: Adiciona ou modifica testes.
+- **chore**: Alterações que não afetam o código ou os testes (ex: configuração de build).
+
 ## Bibliotecas Utilizadas
 
 ### Pandas
