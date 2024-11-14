@@ -8,5 +8,5 @@ df = pd.read_csv("PP-VF.csv")  # Lê o arquivo CSV e armazena os dados em um Dat
 plt.scatter(df['PE'], df['MEDIA'])  # Cria um gráfico de dispersão com 'PE' no eixo X e 'MEDIA' no eixo Y
 plt.xlabel('PE')  # Adiciona o rótulo do eixo X
 plt.ylabel('MEDIA')  # Adiciona o rótulo do eixo Y
-plt.title('CORRELATION - MEDIA AND PE (2019.01)')  # Adiciona o título do gráfico
+plt.title('CORRELATION - MEDIA AND PE')  # Adiciona o título do gráfico
 plt.show()  # Exibe o gráfico
