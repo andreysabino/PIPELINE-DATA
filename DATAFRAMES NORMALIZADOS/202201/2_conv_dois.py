@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregar os dados do CSV
-df = pd.read_csv('202001-V1.csv')
+df = pd.read_csv('202201-V1.csv')
 
 # Converter as colunas 'MEDIA' e 'PE' para float
 df['PE'] = df['PE'].astype(float)

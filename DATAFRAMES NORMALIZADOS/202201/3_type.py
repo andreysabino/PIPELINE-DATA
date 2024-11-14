@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Carregar os dados do CSV
-df = pd.read_csv('202001-VF.csv')
+df = pd.read_csv('202201-VF.csv')
 
 # Iterar sobre os valores da coluna 'PE' e imprimir o tipo de cada valor
 for value in df['PE']:
