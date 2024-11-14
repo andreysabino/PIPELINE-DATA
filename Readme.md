@@ -2,9 +2,9 @@
 
 **Autor:** Andrey de Oliveira Sabino
 
-**Orientador:** Alysson Filgueira Milanez
+**Orientador:** Prof. Dr. Alysson Filgueira Milanez
 
-**Finalidade:** Este projeto de pesquisa e análise tem como objetivo contribuir com o ensino de programação, através da análise de dados de frequência e desempenho dos alunos. Pretende-se analisar os impactos que as ações de extensão têm no ensino e eficiência dos discentes.
+**Finalidade:** Este projeto de pesquisa tem como objetivo contribuir para o ensino de programação por meio da análise de dados sobre frequência e desempenho dos alunos. Busca-se avaliar os impactos das ações de extensão na aprendizagem e na eficiência dos estudantes nas disciplinas introdutórias de programação. Especificamente, esta pesquisa foca em analisar como a ação de ensino "Pré-Algoritmos" influencia o rendimento acadêmico dos alunos na disciplina de Algoritmos e Programação.
 
 ## Organização do Diretório
 
@@ -62,7 +62,7 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`4_PEAR.py`](#script-para-calcular-o-coeficiente-de-pearson): Script para calcular o coeficiente de correlação de Pearson.
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
-- [`Readme.md`](#dados-convertidos): Arquivo .MD com os insights dos datos de seu devido diretório.
+- [`Readme.md`]: Arquivo .MD com os insights dos datos de seu devido diretório.
 
 
 ## Padrão de Commits
