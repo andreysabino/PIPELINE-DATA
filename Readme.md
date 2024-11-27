@@ -62,7 +62,7 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`4_PEAR.py`](#script-para-calcular-o-coeficiente-de-pearson): Script para calcular o coeficiente de correlação de Pearson.
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
-- [`Readme.md`]:() Arquivo .MD com os insights dos datos de seu devido diretório.
+- [`Readme.md`](#readme-principal) Arquivo .MD com os insights dos datos de seu devido diretório.
 
 
 ## Padrão de Commits
