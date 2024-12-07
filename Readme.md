@@ -13,6 +13,10 @@ Os dados e scripts estão organizados da seguinte forma:
 ```
 DATAFRAMES/
 ├── 201801/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
 │   ├── 3_type.py
@@ -21,6 +25,10 @@ DATAFRAMES/
 │   ├── 2001801-VF.csv
 │   ├── Readme.md
 ├── 201802/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
 │   ├── 3_type.py
@@ -29,6 +37,10 @@ DATAFRAMES/
 │   ├── 201802-VF.csv
 │   ├── Readme.md
 ├── 201901/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
 │   ├── 3_type.py
@@ -37,6 +49,10 @@ DATAFRAMES/
 │   ├── 201901-VF.csv
 │   ├── Readme.md
 ├── 201902/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
 │   ├── 3_type.py
@@ -45,12 +61,53 @@ DATAFRAMES/
 │   ├── 201902-VF.csv
 │   ├── Readme.md
 ├── 202201/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
 │   ├── 1_conversao_inicial.py
 │   ├── 2_conversao_secundaria.py
 │   ├── 3_type.py
 │   ├── 4_PEAR.py
 │   ├── 5_DISP.py
 │   ├── 202001-VF.csv
+│   ├── Readme.md
+├── 202401/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
+│   ├── 1_conversao_inicial.py
+│   ├── 2_conversao_secundaria.py
+│   ├── 3_type.py
+│   ├── 4_PEAR.py
+│   ├── 5_DISP.py
+│   ├── 202401-V1.csv
+│   ├── Readme.md
+├── PÓS-PANDEMIA/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
+│   ├── 1_conversao_inicial.py
+│   ├── 2_conversao_secundaria.py
+│   ├── 3_type.py
+│   ├── 4_PEAR.py
+│   ├── 5_DISP.py
+│   ├── 8_DISP.py
+│   ├── POSP.csv
+│   ├── Readme.md
+├── PRÉ-PANDEMIA/
+│   ├── graficos/
+│   │   ├── boxplot_media.png
+│   │   ├── boxplot_pe.png
+│   │   ├── dispersao.png
+│   ├── 1_conversao_inicial.py
+│   ├── 2_conversao_secundaria.py
+│   ├── 3_type.py
+│   ├── 4_PEAR.py
+│   ├── 5_DISP.py
+│   ├── 202401-V1.csv
 │   ├── Readme.md
 ```
 
@@ -63,6 +120,7 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
 - [`Readme.md`](#readme-principal) Arquivo .MD com os insights dos datos de seu devido diretório.
+- [`graficos/`](#pasta-de-graficos): Pasta contendo os gráficos gerados.
 
 
 ## Padrão de Commits
@@ -90,10 +148,6 @@ Para manter um histórico de commits claro e consistente, segui o seguinte padr�
 ### Scipy
 
 [Scipy](https://www.scipy.org/) é uma biblioteca que fornece rotinas e algoritmos científicos e técnicos. No contexto deste projeto, utilizamos o módulo `scipy.stats` para calcular o coeficiente de correlação de Spearman.
-
-### Seaborn
-
-[Seaborn](https://seaborn.pydata.org/) é uma biblioteca de visualização de dados baseada no Matplotlib. Ela fornece uma interface de alto nível para desenhar gráficos estatísticos atraentes e informativos.
 
 ### Tabula
 
@@ -340,7 +394,53 @@ Neste semestre, ambos os coeficientes não apresentam significância estatístic
 
 Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
 
-### Conclusões (Preciso do ultimo semestre ainda)
+### 6.6 Semestre 2024.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
+
+- **Spearman**: Coeficiente = 0,6714; Valor-p = 0,0001  
+- **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004  
+
+Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
+
+---
+### 6.6 Semestre 2024.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
+
+- **Spearman**: Coeficiente = 0,6714; Valor-p = 0,0001  
+- **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004
+
+
+### 6.7 Semestre Pré-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
+
+### Spearman
+- Coeficiente de Spearman: 0.41315725009715626
+- Valor-p: 1.347586741517811e-07
+
+### Pearson
+- Coeficiente de Pearson: 0.42239592017401345
+- Valor-p: 6.576703182085221e-08
+  
+### 6.8 Semestre Pós-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
+
+### Spearman
+- Coeficiente de Spearman: 0.3452412303734646
+- Valor-p: 0.007949827440385242
+
+### Pearson
+- Coeficiente de Pearson: 0.37732604742138004
+- Valor-p: 0.003502088499328047
+
+### Discursões
+
+Para leitura destas discursões e facilitar a compreensão, vale salientar que os modelos utilizados para analisar os dados se comportam variando em um intervalo que vai de -1 até 1, tendo também a variavel -p, que reflete o nível de 
+
+#### Semestres Pré-Pandemia 
+
+Nos semestres 2018.1 e 2018.2, os coeficientes de correlação de Spearman e Pearson indicaram uma correlação positiva moderada entre frequência e desempenho, ambos estatisticamente significativos. Isso sugere que, nesses períodos, a participação nas ações de extensão esteve consistentemente associada a um aumento no desempenho acadêmico. Entretanto, nos semestres 2019.1 e 2019.2 somente o modelo de Spearman apresentou significância estatística. Sugerindo então que a relação entre a frequência e desempenho possa ter sido monotônica, mas não estritamente linear no semestre 2019.1.
+
+No semestre 2019.2 os valores de -p, que se referem a significância estatística 
+
+Já em 
+
+### Conclusões
 
 ---
 
