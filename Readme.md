@@ -400,14 +400,7 @@ Este semestre, o único do período pós-pandemia até o momento, ele apresenta 
 - **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004  
 
 Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
-
 ---
-### 6.6 Semestre 2024.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
-
-- **Spearman**: Coeficiente = 0,6714; Valor-p = 0,0001  
-- **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004
-
-
 ### 6.7 Semestre Pré-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
 
 ### Spearman
@@ -430,15 +423,14 @@ Este semestre, o único do período pós-pandemia até o momento, ele apresenta 
 
 ### Discursões
 
-Para leitura destas discursões e facilitar a compreensão, vale salientar que os modelos utilizados para analisar os dados se comportam variando em um intervalo que vai de -1 até 1, tendo também a variavel -p, que reflete o nível de 
+Mediante os resultados obtidos, é possível inferir que há uma tendência geral de correlação positiva entre a relação da frequência na ação de extensão e o rendimento acadêmico dos alunos nas disciplinas de Introdução à Programação. Em especial, o semestre 2022.1, que foi o primeiro semestre presencial pós-pandemia por ter tido uma das correlações mais fortes e ter sido estatisticamente, pode sugerir também que a ação de extensão tornou-se ainda mais importante para o desempenho acadêmico dos alunos no período de adaptação da volta ao ensino presencial.
+
 
 #### Semestres Pré-Pandemia 
 
 Nos semestres 2018.1 e 2018.2, os coeficientes de correlação de Spearman e Pearson indicaram uma correlação positiva moderada entre frequência e desempenho, ambos estatisticamente significativos. Isso sugere que, nesses períodos, a participação nas ações de extensão esteve consistentemente associada a um aumento no desempenho acadêmico. Entretanto, nos semestres 2019.1 e 2019.2 somente o modelo de Spearman apresentou significância estatística. Sugerindo então que a relação entre a frequência e desempenho possa ter sido monotônica, mas não estritamente linear no semestre 2019.1.
 
 No semestre 2019.2 os valores de -p, que se referem a significância estatística 
-
-Já em 
 
 ### Conclusões
 
@@ -454,5 +446,3 @@ C[Padronização de Formatos] -->
 D[Redução de Colunas] -->
 E[Normalização dos Dados]
 ```
-
-Essa abordagem oferece uma visão mais resumida e fácil de entender, além de permitir que a análise seja focada não só na frequência, mas também no desempenho dos alunos na disciplina. Dessa forma, ficou mais simples comparar o impacto da frequência no rendimento acadêmico e no status final de aprovação.
