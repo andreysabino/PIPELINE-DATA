@@ -376,7 +376,7 @@ A análise deste semestre revela uma correlação positiva moderada e estatistic
 
 Neste semestre, apenas o coeficiente de Spearman apresenta significância estatística, indicando uma correlação monotônica moderada. Já o coeficiente de Pearson não alcançou significância estatística, sugerindo que a relação não é estritamente linear.
 
----
+
 
 ### 6.4 Semestre 2019.2 (<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
@@ -385,7 +385,7 @@ Neste semestre, apenas o coeficiente de Spearman apresenta significância estat�
 
 Neste semestre, ambos os coeficientes não apresentam significância estatística, o que sugere que a relação entre frequência e rendimento pode ser menos pronunciada neste período.
 
----
+
 
 ### 6.5 Semestre 2022.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
 
@@ -399,8 +399,9 @@ Este semestre, o único do período pós-pandemia até o momento, ele apresenta 
 - **Spearman**: Coeficiente = 0,6714; Valor-p = 0,0001  
 - **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004  
 
+
 Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
----
+
 ### 6.7 Semestre Pré-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
 
 ### Spearman
@@ -424,7 +425,6 @@ Este semestre, o único do período pós-pandemia até o momento, ele apresenta 
 ### Discursões
 
 Mediante os resultados obtidos, é possível inferir que há uma tendência geral de correlação positiva entre a relação da frequência na ação de extensão e o rendimento acadêmico dos alunos nas disciplinas de Introdução à Programação. Em especial, o semestre 2022.1, que foi o primeiro semestre presencial pós-pandemia por ter tido uma das correlações mais fortes e ter sido estatisticamente, pode sugerir também que a ação de extensão tornou-se ainda mais importante para o desempenho acadêmico dos alunos no período de adaptação da volta ao ensino presencial.
-
 
 #### Semestres Pré-Pandemia 
 
