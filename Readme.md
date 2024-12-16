@@ -430,7 +430,10 @@ Mediante os resultados obtidos, é possível inferir que há uma tendência gera
 
 Nos semestres 2018.1 e 2018.2, os coeficientes de correlação de Spearman e Pearson indicaram uma correlação positiva moderada entre frequência e desempenho, ambos estatisticamente significativos. Isso sugere que, nesses períodos, a participação nas ações de extensão esteve consistentemente associada a um aumento no desempenho acadêmico. Entretanto, nos semestres 2019.1 e 2019.2 somente o modelo de Spearman apresentou significância estatística. Sugerindo então que a relação entre a frequência e desempenho possa ter sido monotônica, mas não estritamente linear no semestre 2019.1.
 
-No semestre 2019.2 os valores de -p, que se referem a significância estatística 
+
+#### Semestres Pós-Pandemia 
+
+As correlações mais fortes estão em 2022.1 e 2024.1. Estas, sugerem que as ações de extensão ganharam um papel ainda mais relevante, dando um suporte aos alunos e auxiliando o desempenho dos alunos, possívelmente devido a necessidade de readaptação ao ambiente presencial e a busca por reforço em possíveis déficits deixados pelo ensino remoto.
 
 ### Conclusões
 
