@@ -424,7 +424,7 @@ Este semestre, o único do período pós-pandemia até o momento, ele apresenta 
 
 ### Discursões
 
-Mediante os resultados obtidos, é possível inferir que há uma tendência geral de correlação positiva entre a relação da frequência na ação de extensão e o rendimento acadêmico dos alunos nas disciplinas de Introdução à Programação. Em especial, o semestre 2022.1, que foi o primeiro semestre presencial pós-pandemia por ter tido uma das correlações mais fortes e ter sido estatisticamente, pode sugerir também que a ação de extensão tornou-se ainda mais importante para o desempenho acadêmico dos alunos no período de adaptação da volta ao ensino presencial.
+Mediante os resultados obtidos, é possível observar que há uma tendência geral de correlação positiva entre a relação da frequência na ação de extensão e o rendimento acadêmico dos alunos nas disciplinas de Introdução à Programação. Em especial, o semestre 2022.1, que foi o primeiro semestre presencial pós-pandemia por ter tido uma das correlações mais fortes e ter sido estatisticamente, pode sugerir também que a ação de extensão tornou-se ainda mais importante para o desempenho acadêmico dos alunos no período de adaptação da volta ao ensino presencial.
 
 #### Semestres Pré-Pandemia 
 
