@@ -4,7 +4,9 @@
 
 **Orientador:** Prof. Dr. Alysson Filgueira Milanez
 
-**Finalidade:** Este projeto de pesquisa tem como objetivo contribuir para o ensino de programação por meio da análise de dados sobre frequência e desempenho dos alunos. Busca-se avaliar os impactos das ações de extensão na aprendizagem e na eficiência dos estudantes nas disciplinas introdutórias de programação. Especificamente, esta pesquisa foca em analisar como a ação de ensino "Pré-Algoritmos" influencia o rendimento acadêmico dos alunos na disciplina de Algoritmos e Programação.
+**Finalidade:** Este Trabalho de Conclusao de Curso tem como objetivo contribuir para o ensino de programação por meio de uma análise de dados sobre frequência e desempenho dos alunos. Busca-se avaliar os impactos das ações de extensão na aprendizagem e na eficiência dos estudantes nas disciplinas introdutórias de programação.
+
+Esta pesquisa foca em analisar como a ação de ensino "Pré-Algoritmos" influencia o rendimento acadêmico dos alunos na disciplina de Algoritmos e Programação, no contexto da UFERSA - Universidade Federal Rural do Semi-Árido, Campus de Pau dos Ferros. Embora os resultados desta pesquisa possam não ser generalizáveis para todos os contextos, eles contribuem para o conhecimento sobre o impacto de ações de extensão em instituições de ensino superior semelhantes e podem servir como base para futuras pesquisas em outros contextos.
 
 ## Organização do Diretório
 
@@ -24,91 +26,6 @@ DATAFRAMES/
 │   ├── 5_DISP.py
 │   ├── 2001801-VF.csv
 │   ├── Readme.md
-├── 201802/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 201802-VF.csv
-│   ├── Readme.md
-├── 201901/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 201901-VF.csv
-│   ├── Readme.md
-├── 201902/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 201902-VF.csv
-│   ├── Readme.md
-├── 202201/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 202001-VF.csv
-│   ├── Readme.md
-├── 202401/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 202401-V1.csv
-│   ├── Readme.md
-├── PÓS-PANDEMIA/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 8_DISP.py
-│   ├── POSP.csv
-│   ├── Readme.md
-├── PRÉ-PANDEMIA/
-│   ├── graficos/
-│   │   ├── boxplot_media.png
-│   │   ├── boxplot_pe.png
-│   │   ├── dispersao.png
-│   ├── 1_conversao_inicial.py
-│   ├── 2_conversao_secundaria.py
-│   ├── 3_type.py
-│   ├── 4_PEAR.py
-│   ├── 5_DISP.py
-│   ├── 202401-V1.csv
-│   ├── Readme.md
 ```
 
 Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém os arquivos CSV resultantes de cada etapa do processo (conversão, limpeza e normalização), bem como os scripts utilizados para cada etapa.
@@ -119,7 +36,7 @@ Cada pasta dentro do diretório `DATAFRAMES` corresponde a um semestre e contém
 - [`4_PEAR.py`](#script-para-calcular-o-coeficiente-de-pearson): Script para calcular o coeficiente de correlação de Pearson.
 - [`5_DISP.py`](#script-para-geraçã-de-gráficos-de-dispersão): Script para gerar gráficos de dispersão.
 - [`2001801-VF.csv`](#dados-convertidos): Arquivo CSV resultante da conversão inicial dos dados.
-- [`Readme.md`](#readme-principal) Arquivo .MD com os insights dos datos de seu devido diretório.
+- [`Readme.md`](#readme-principal) Arquivo .MD com os insights dos dados de seu devido diretório.
 - [`graficos/`](#pasta-de-graficos): Pasta contendo os gráficos gerados.
 
 
@@ -155,7 +72,7 @@ Para manter um histórico de commits claro e consistente, segui o seguinte padr�
 
 ## 1. Introdução
 
-Este documento detalha o processo de análise de dados realizado no projeto de TCC, desde a conversão dos dados originais em formato `.pdf` para `.xlsx` e `.csv`, até a limpeza, normalização e preparação dos dados para a análise final. O objetivo é explicar o passo a passo seguido e os desafios enfrentados ao longo do processo.
+Este documento detalha o processo de análise de dados realizado no meu Trabalho de Conclusão de Curso, documento aqui todas as fases de tratamento dos dados, desde a conversão dos dados originais em formato `.pdf` para `.xlsx` e `.csv`, até a limpeza, normalização e preparação dos dados para a análise final. O objetivo é explicar o passo a passo seguido e os desafios enfrentados ao longo do processo.
 
 ## 2. Conversão dos Arquivos PDF para XLSX/CSV
 
@@ -219,17 +136,7 @@ Para simplificar, optei por representar a frequência dos alunos em forma de por
 
 Essa abordagem oferece uma visão mais resumida e fácil de entender, além de permitir que a análise seja focada não só na frequência, mas também no desempenho dos alunos na disciplina. Dessa forma, ficou mais simples comparar o impacto da frequência no rendimento acadêmico e no status final de aprovação.
 
-### Script de Conversão e Limpeza Inicial
 
-```python
-import pandas as pd
-
-# Carregar os dados convertidos
-df = pd.read_csv('dados_convertidos.csv')
-
-# Salvar os dados limpos
-df.to_csv('dados_limpos.csv', index=False)
-```
 
 ## 4. Normalização dos Dados
 
@@ -351,8 +258,8 @@ A partir dos arquivos normalizados, foi possível proceder com a análise de dad
 ### 6.1 Semestre 2018.1(<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
 
-- **Spearman**: Coeficiente = 0,3873; Valor-p = 0,0124  
-- **Pearson**: Coeficiente = 0,5612; Valor-p = 0,0001  
+- **Spearman**: Coeficiente = 0,38; Valor-p = 0,01 
+- **Pearson**: Coeficiente = 0,56; Valor-p = 0,0001  
 
 Esses resultados indicam uma correlação positiva moderada entre frequência e desempenho, com significância estatística para ambos os coeficientes. A correlação de Pearson sugere uma relação linear moderada entre frequência e as notas dos alunos.
 
@@ -361,8 +268,8 @@ Esses resultados indicam uma correlação positiva moderada entre frequência e 
 ### 6.2 Semestre 2018.2(<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
 
-- **Spearman**: Coeficiente = 0,3608; Valor-p = 0,0205  
-- **Pearson**: Coeficiente = 0,3606; Valor-p = 0,0206  
+- **Spearman**: Coeficiente = 0,36; Valor-p = 0,02  
+- **Pearson**: Coeficiente = 0,36; Valor-p = 0,02  
 
 A análise deste semestre revela uma correlação positiva moderada e estatisticamente significativa, como sugerido pelos valores-p. Isso indica uma relação entre a frequência nas ações de extensão e o rendimento acadêmico dos alunos.
 
@@ -371,8 +278,8 @@ A análise deste semestre revela uma correlação positiva moderada e estatistic
 ### 6.3 Semestre 2019.1(<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
 
-- **Spearman**: Coeficiente = 0,3365; Valor-p = 0,0448  
-- **Pearson**: Coeficiente = 0,2904; Valor-p = 0,0858  
+- **Spearman**: Coeficiente = 0,34; Valor-p = 0,05  
+- **Pearson**: Coeficiente = 0,29; Valor-p = 0,09  
 
 Neste semestre, apenas o coeficiente de Spearman apresenta significância estatística, indicando uma correlação monotônica moderada. Já o coeficiente de Pearson não alcançou significância estatística, sugerindo que a relação não é estritamente linear.
 
@@ -380,56 +287,53 @@ Neste semestre, apenas o coeficiente de Spearman apresenta significância estat�
 
 ### 6.4 Semestre 2019.2 (<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
-- **Spearman**: Coeficiente = 0,3232; Valor-p = 0,0666  
-- **Pearson**: Coeficiente = 0,2597; Valor-p = 0,1444  
+- **Spearman**: Coeficiente = 0,32; Valor-p = 0,06  
+- **Pearson**: Coeficiente = 0,26; Valor-p = 0,15  
 
 Neste semestre, ambos os coeficientes não apresentam significância estatística, o que sugere que a relação entre frequência e rendimento pode ser menos pronunciada neste período.
 
-
-
 ### 6.5 Semestre 2022.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
 
-- **Spearman**: Coeficiente = 0,6714; Valor-p = 0,0001  
-- **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004  
+- **Spearman**: Coeficiente = 0,67; Valor-p = 0,0001  
+- **Pearson**: Coeficiente = 0,63; Valor-p = 0,0004  
 
-Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
+Este semestre apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
 
 ### 6.6 Semestre 2024.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
 
-- **Spearman**: Coeficiente = 0,6714; Valor-p = 0,0001  
-- **Pearson**: Coeficiente = 0,6323; Valor-p = 0,0004  
+- **Spearman**: Coeficiente = 0,67; Valor-p = 0,0001  
+- **Pearson**: Coeficiente = 0,63; Valor-p = 0,0004  
 
 
 Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
 
-### 6.7 Semestre Pré-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
+### 6.7 Semestres Pré-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
 
 ### Spearman
-- Coeficiente de Spearman: 0.41315725009715626
-- Valor-p: 1.347586741517811e-07
+- Coeficiente de Spearman: 0.41
+- Valor-p: 1.35
 
 ### Pearson
-- Coeficiente de Pearson: 0.42239592017401345
-- Valor-p: 6.576703182085221e-08
+- Coeficiente de Pearson: 0.41
+- Valor-p: 6.58
   
-### 6.8 Semestre Pós-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
+### 6.8 Semestres Pós-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
 
 ### Spearman
-- Coeficiente de Spearman: 0.3452412303734646
-- Valor-p: 0.007949827440385242
+- Coeficiente de Spearman: 0.35
+- Valor-p: 0.0079
 
 ### Pearson
-- Coeficiente de Pearson: 0.37732604742138004
-- Valor-p: 0.003502088499328047
+- Coeficiente de Pearson: 0.37
+- Valor-p: 0.0035
 
-### Discursões
+### Discussões
 
-Mediante os resultados obtidos, é possível observar que há uma tendência geral de correlação positiva entre a relação da frequência na ação de extensão e o rendimento acadêmico dos alunos nas disciplinas de Introdução à Programação. Em especial, o semestre 2022.1, que foi o primeiro semestre presencial pós-pandemia por ter tido uma das correlações mais fortes e ter sido estatisticamente, pode sugerir também que a ação de extensão tornou-se ainda mais importante para o desempenho acadêmico dos alunos no período de adaptação da volta ao ensino presencial.
+Mediante os resultados obtidos, é possível observar que há uma tendência geral de correlação positiva entre a relação da frequência na ação de extensão e o rendimento acadêmico dos alunos nas disciplinas de Introdução à Programação. Em especial, o semestre 2022.1, que foi o primeiro semestre presencial pós-pandemia por ter tido uma das correlações mais fortes, podendo sugerir também que a ação de extensão tornou-se ainda mais importante para o desempenho acadêmico dos alunos no período de adaptação da volta ao ensino presencial.
 
 #### Semestres Pré-Pandemia 
 
-Nos semestres 2018.1 e 2018.2, os coeficientes de correlação de Spearman e Pearson indicaram uma correlação positiva moderada entre frequência e desempenho, ambos estatisticamente significativos. Isso sugere que, nesses períodos, a participação nas ações de extensão esteve consistentemente associada a um aumento no desempenho acadêmico. Entretanto, nos semestres 2019.1 e 2019.2 somente o modelo de Spearman apresentou significância estatística. Sugerindo então que a relação entre a frequência e desempenho possa ter sido monotônica, mas não estritamente linear no semestre 2019.1.
-
+Nos semestres 2018.1 e 2018.2, os coeficientes de correlação de Spearman e Pearson indicaram uma correlação positiva moderada entre frequência e desempenho, ambos estatisticamente significativos. Isso sugere que, nesses períodos, a participação nas ações de extensão esteve consistentemente associada a uma melhoria no desempenho acadêmico. Entretanto, nos semestres 2019.1 e 2019.2 somente o modelo de Spearman apresentou significância estatística. Sugerindo então que a relação entre a frequência e desempenho possa ter sido monotônica, mas não estritamente linear no semestre 2019.1.
 
 #### Semestres Pós-Pandemia 
 
