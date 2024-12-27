@@ -4,7 +4,7 @@
 ### Spearman
 - Coeficiente de Spearman: 0.6714292350525484
 - Valor-p: 0.00012595409624696722
-- 
+
 ### Pearson
 - Coeficiente de Pearson: 0.632322239265231
 - Valor-p: 0.00040223904840356727
