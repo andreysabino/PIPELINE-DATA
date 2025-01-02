@@ -315,7 +315,7 @@ Este semestre apresenta as correlações mais fortes de todos os semestres anali
 - Coeficiente de Pearson: 0.42
 - Valor-p: 6.58
   
-### 6.8 Semestres Pós-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
+### 6.8 Semestres Pós-Pandemia (<span style="color: orange; font-weight: bold">Pós-Pandemia</span>)
 
 ### Spearman
 - Coeficiente de Spearman: 0.35
