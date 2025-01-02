@@ -259,7 +259,7 @@ A partir dos arquivos normalizados, foi possível proceder com a análise de dad
 
 
 - **Spearman**: Coeficiente = 0,38; Valor-p = 0,01 
-- **Pearson**: Coeficiente = 0,56; Valor-p = 0,0001  
+- **Pearson**: Coeficiente = 0,56; Valor-p = 0,00
 
 Esses resultados indicam uma correlação positiva moderada entre frequência e desempenho, com significância estatística para ambos os coeficientes. A correlação de Pearson sugere uma relação linear moderada entre frequência e as notas dos alunos.
 
@@ -278,34 +278,32 @@ A análise deste semestre revela uma correlação positiva moderada e estatistic
 ### 6.3 Semestre 2019.1(<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
 
-- **Spearman**: Coeficiente = 0,34; Valor-p = 0,05  
+- **Spearman**: Coeficiente = 0,34; Valor-p = 0,04
 - **Pearson**: Coeficiente = 0,29; Valor-p = 0,09  
 
 Neste semestre, apenas o coeficiente de Spearman apresenta significância estatística, indicando uma correlação monotônica moderada. Já o coeficiente de Pearson não alcançou significância estatística, sugerindo que a relação não é estritamente linear.
 
 
-
 ### 6.4 Semestre 2019.2 (<span style="color: blue; font-weight: bold;">Pré-Pandemia</span>)
 
-- **Spearman**: Coeficiente = 0,32; Valor-p = 0,06  
-- **Pearson**: Coeficiente = 0,26; Valor-p = 0,15  
+- **Spearman**: Coeficiente = 0,32; Valor-p = 0,07  
+- **Pearson**: Coeficiente = 0,26; Valor-p = 0,14 
 
 Neste semestre, ambos os coeficientes não apresentam significância estatística, o que sugere que a relação entre frequência e rendimento pode ser menos pronunciada neste período.
 
+
 ### 6.5 Semestre 2022.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
 
-- **Spearman**: Coeficiente = 0,67; Valor-p = 0,0001  
-- **Pearson**: Coeficiente = 0,63; Valor-p = 0,0004  
+- **Spearman**: Coeficiente = 0,67; Valor-p = 0,00
+- **Pearson**: Coeficiente = 0,63; Valor-p = 0,00 
 
 Este semestre apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
 
 ### 6.6 Semestre 2024.1 (<span style="color: orange; font-weight: bold;">Pós-Pandemia</span>)
 
-- **Spearman**: Coeficiente = 0,67; Valor-p = 0,0001  
-- **Pearson**: Coeficiente = 0,63; Valor-p = 0,0004  
+- **Spearman**: Coeficiente = 0,33; Valor-p = 0,07
+- **Pearson**: Coeficiente = 0,35; Valor-p = 0,05
 
-
-Este semestre, o único do período pós-pandemia até o momento, ele apresenta as correlações mais fortes de todos os semestres analisados. Ambos os coeficientes são altos e estatisticamente significativos, indicando uma correlação positiva forte entre frequência e desempenho. Esses resultados sugerem que a ação de extensão pode ter tido um impacto ainda mais importante para os alunos após o retorno das aulas presenciais.
 
 ### 6.7 Semestres Pré-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
 
@@ -314,18 +312,18 @@ Este semestre, o único do período pós-pandemia até o momento, ele apresenta 
 - Valor-p: 1.35
 
 ### Pearson
-- Coeficiente de Pearson: 0.41
+- Coeficiente de Pearson: 0.42
 - Valor-p: 6.58
   
 ### 6.8 Semestres Pós-Pandemia (<span style="color: orange; font-weight: bold">Pré-Pandemia</span>)
 
 ### Spearman
 - Coeficiente de Spearman: 0.35
-- Valor-p: 0.0079
+- Valor-p: 0.00
 
 ### Pearson
 - Coeficiente de Pearson: 0.37
-- Valor-p: 0.0035
+- Valor-p: 0.00
 
 ### Discussões
 
