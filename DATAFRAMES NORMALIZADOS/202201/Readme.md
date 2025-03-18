@@ -3,11 +3,11 @@
 
 ### Spearman
 - Coeficiente de Spearman: 0.67
-- Valor-p: 0.0001
+- Valor-p: 0.00
 
 ### Pearson
 - Coeficiente de Pearson: 0.63
-- Valor-p: 0.0004
+- Valor-p: 0.00
 
 ## Gráficos
 ### Gráfico de Dispersão
