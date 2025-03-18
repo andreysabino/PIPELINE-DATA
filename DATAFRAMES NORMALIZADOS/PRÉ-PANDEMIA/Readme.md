@@ -3,12 +3,12 @@
 ## Coeficientes de Correlação
 
 ### Spearman
-- Coeficiente de Spearman: 0.41315725009715626
-- Valor-p: 1.347586741517811e-07
+- Coeficiente de Spearman: 0.41
+- Valor-p: 1.35
 
 ### Pearson
-- Coeficiente de Pearson: 0.42239592017401345
-- Valor-p: 6.576703182085221e-08
+- Coeficiente de Pearson: 0.42
+- Valor-p: 6.58
 
 ## Gráficos
 
